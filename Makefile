@@ -36,7 +36,6 @@ BUILD_DIR = build
 ######################################
 # C sources
 C_SOURCES =  \
-Core/Src/main.c \
 Core/Src/gpio.c \
 Core/Src/freertos.c \
 Core/Src/dma.c \
@@ -88,12 +87,19 @@ Core/Src/syscalls.c
 #添加C++文件
 CXX_SOURCES = \
 Core/Src/real_main.cpp \
-ACE_ECF_25/Algorithm/filter_alg/filter.cpp \
-ACE_ECF_25/Algorithm/PID/Alg_PID.cpp \
-ACE_ECF_25/Algorithm/user_maths/cpp_files/user_maths.cpp \
-ACE_ECF_25/Bsp/can/bsp_can.cpp \
-ACE_ECF_25/module/motor/Motor_General_def.cpp \
-ACE_ECF_25/module/motor/DJImotor/dji_motor.cpp \
+Yellow_code/Alg_PID.cpp \
+Yellow_code/bsp_can.cpp \
+Yellow_code/dji_motor.cpp \
+Yellow_code/filter.cpp \
+Yellow_code/Motor_General_def.cpp \
+Yellow_code/user_maths.cpp \
+# ACE_ECF_25/Algorithm/filter_alg/filter.cpp \
+# ACE_ECF_25/Algorithm/PID/Alg_PID.cpp \
+# ACE_ECF_25/Algorithm/user_maths/cpp_files/user_maths.cpp \
+# ACE_ECF_25/Bsp/can/bsp_can.cpp \
+# ACE_ECF_25/module/motor/Motor_General_def.cpp \
+# ACE_ECF_25/module/motor/DJImotor/dji_motor.cpp \
+
 
 #==================================================================================================
 
@@ -180,16 +186,17 @@ C_INCLUDES =  \
 
 CXX_INCLUDES =  \
 -ICore/Inc \
--IACE_ECF_25 \
--IACE_ECF_25/Algorithm/filter_alg \
--IACE_ECF_25/Algorithm/PID \
--IACE_ECF_25/Algorithm/user_maths \
--IACE_ECF_25/Algorithm/user_maths/cpp_files \
--IACE_ECF_25/Bsp/can \
--IACE_ECF_25/Bsp/dwt \
--IACE_ECF_25/module \
--IACE_ECF_25/module/motor \
--IACE_ECF_25/module/motor/DJImotor
+-IYellow_code
+# -IACE_ECF_25 \
+# -IACE_ECF_25/Algorithm/filter_alg \
+# -IACE_ECF_25/Algorithm/PID \
+# -IACE_ECF_25/Algorithm/user_maths \
+# -IACE_ECF_25/Algorithm/user_maths/cpp_files \
+# -IACE_ECF_25/Bsp/can \
+# -IACE_ECF_25/Bsp/dwt \
+# -IACE_ECF_25/module \
+# -IACE_ECF_25/module/motor \
+# -IACE_ECF_25/module/motor/DJImotor
 
 #=============================================================================================
 
@@ -201,7 +208,7 @@ CFLAGS += $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction
 #================================5.增加编译器参数设置===============================================
 
 
-CXXFLAGS = -lstdc++ $(CFLAGS) $(CXX_DEFS) $(CXX_INCLUDES) -g -ggdb3 -fno-rtti -fno-exceptions \
+CXXFLAGS = -lstdc++ $(CFLAGS) $(CXX_DEFS) $(CXX_INCLUDES) -g -ggdb3 -fno-rtti -fno-exceptions -std=c++20 \
 -fverbose-asm -fdata-sections -ffunction-sections -fpermissive -Wa,-ahlms=$(BUILD_DIR)/$(notdir $(<:.cpp=.lst))
 
 

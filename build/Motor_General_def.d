@@ -1,9 +1,7 @@
-build/Motor_General_def.o: ACE_ECF_25/module/motor/Motor_General_def.cpp \
- ACE_ECF_25/module/motor/Motor_General_def.hpp \
- ACE_ECF_25/Algorithm/PID/Alg_PID.hpp \
- ACE_ECF_25/Algorithm/filter_alg/filter.hpp \
- ACE_ECF_25/Bsp/can/bsp_can.hpp ACE_ECF_25/util_instance_manager.hpp \
- ACE_ECF_25/util_assert.hpp \
+build/Motor_General_def.o: Yellow_code/Motor_General_def.cpp \
+ Yellow_code/Motor_General_def.hpp Yellow_code/Alg_PID.hpp \
+ Yellow_code/filter.hpp Yellow_code/bsp_can.hpp \
+ Yellow_code/util_instance_manager.hpp Yellow_code/util_assert.hpp \
  Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  Core/Inc/stm32h7xx_hal_conf.h \
  Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -37,12 +35,12 @@ build/Motor_General_def.o: ACE_ECF_25/module/motor/Motor_General_def.cpp \
  Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
-ACE_ECF_25/module/motor/Motor_General_def.hpp:
-ACE_ECF_25/Algorithm/PID/Alg_PID.hpp:
-ACE_ECF_25/Algorithm/filter_alg/filter.hpp:
-ACE_ECF_25/Bsp/can/bsp_can.hpp:
-ACE_ECF_25/util_instance_manager.hpp:
-ACE_ECF_25/util_assert.hpp:
+Yellow_code/Motor_General_def.hpp:
+Yellow_code/Alg_PID.hpp:
+Yellow_code/filter.hpp:
+Yellow_code/bsp_can.hpp:
+Yellow_code/util_instance_manager.hpp:
+Yellow_code/util_assert.hpp:
 Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 Core/Inc/stm32h7xx_hal_conf.h:
 Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:

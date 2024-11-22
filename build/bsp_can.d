@@ -1,6 +1,5 @@
-build/bsp_can.o: ACE_ECF_25/Bsp/can/bsp_can.cpp \
- ACE_ECF_25/Bsp/can/bsp_can.hpp ACE_ECF_25/util_instance_manager.hpp \
- ACE_ECF_25/util_assert.hpp \
+build/bsp_can.o: Yellow_code/bsp_can.cpp Yellow_code/bsp_can.hpp \
+ Yellow_code/util_instance_manager.hpp Yellow_code/util_assert.hpp \
  Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  Core/Inc/stm32h7xx_hal_conf.h \
  Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -34,10 +33,10 @@ build/bsp_can.o: ACE_ECF_25/Bsp/can/bsp_can.cpp \
  Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
- ACE_ECF_25/Bsp/dwt/bsp_dwt.hpp Core/Inc/fdcan.h Core/Inc/main.h
-ACE_ECF_25/Bsp/can/bsp_can.hpp:
-ACE_ECF_25/util_instance_manager.hpp:
-ACE_ECF_25/util_assert.hpp:
+ Yellow_code/bsp_dwt.hpp Core/Inc/fdcan.h Core/Inc/main.h
+Yellow_code/bsp_can.hpp:
+Yellow_code/util_instance_manager.hpp:
+Yellow_code/util_assert.hpp:
 Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 Core/Inc/stm32h7xx_hal_conf.h:
 Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:
@@ -73,6 +72,6 @@ Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
 Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
-ACE_ECF_25/Bsp/dwt/bsp_dwt.hpp:
+Yellow_code/bsp_dwt.hpp:
 Core/Inc/fdcan.h:
 Core/Inc/main.h:

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccVld2hN.s 			page 1
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccBtliyu.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccVld2hN.s 			page 1
   23:Core/Src/freertos.c **** #include "main.h"
   24:Core/Src/freertos.c **** #include "cmsis_os.h"
   25:Core/Src/freertos.c **** 
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccVld2hN.s 			page 2
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccBtliyu.s 			page 2
 
 
   26:Core/Src/freertos.c **** /* Private includes ----------------------------------------------------------*/
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccVld2hN.s 			page 1
   80:Core/Src/freertos.c ****   * @retval None
   81:Core/Src/freertos.c ****   */
   82:Core/Src/freertos.c **** void MX_FREERTOS_Init(void) {
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccVld2hN.s 			page 3
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccBtliyu.s 			page 3
 
 
   83:Core/Src/freertos.c ****   /* USER CODE BEGIN Init */
@@ -178,13 +178,14 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccVld2hN.s 			page 1
  123:Core/Src/freertos.c ****   /* USER CODE BEGIN StartDefaultTask */
  124:Core/Src/freertos.c ****   /* Infinite loop */
  125:Core/Src/freertos.c ****   for(;;)
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccVld2hN.s 			page 4
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccBtliyu.s 			page 4
 
 
   46              		.loc 1 125 3 is_stmt 1 discriminator 1 view .LVU2
  126:Core/Src/freertos.c ****   {
- 127:Core/Src/freertos.c ****     osDelay(1);
-  47              		.loc 1 127 5 discriminator 1 view .LVU3
+ 127:Core/Src/freertos.c ****     
+ 128:Core/Src/freertos.c ****     osDelay(1);
+  47              		.loc 1 128 5 discriminator 1 view .LVU3
   48 0002 0120     		movs	r0, #1
   49 0004 FFF7FEFF 		bl	osDelay
   50              	.LVL2:
@@ -237,10 +238,10 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccVld2hN.s 			page 1
   90              		.cfi_endproc
   91              	.LFE149:
   93              		.section	.text.MX_FREERTOS_Init,"ax",%progbits
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccBtliyu.s 			page 5
+
+
   94              		.align	1
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccVld2hN.s 			page 5
-
-
   95              		.global	MX_FREERTOS_Init
   96              		.syntax unified
   97              		.thumb
@@ -297,10 +298,10 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccVld2hN.s 			page 1
  144              		.global	_INIT_TASK_Handle
  145              		.section	.rodata
  146              		.align	2
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccBtliyu.s 			page 6
+
+
  147              		.set	.LANCHOR1,. + 0
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccVld2hN.s 			page 6
-
-
  148              	.LC2:
  149 0000 00000000 		.word	.LC0
  150 0004 00000000 		.word	StartDefaultTask
@@ -340,27 +341,27 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccVld2hN.s 			page 1
  182              		.file 5 "Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h"
  183              		.file 6 "Middlewares/Third_Party/FreeRTOS/Source/include/task.h"
  184              		.file 7 "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h"
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccVld2hN.s 			page 7
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccBtliyu.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 freertos.c
-C:\Users\28212\AppData\Local\Temp\ccVld2hN.s:16     .rodata.str1.4:00000000 $d
-C:\Users\28212\AppData\Local\Temp\ccVld2hN.s:23     .text.StartDefaultTask:00000000 $t
-C:\Users\28212\AppData\Local\Temp\ccVld2hN.s:29     .text.StartDefaultTask:00000000 StartDefaultTask
-C:\Users\28212\AppData\Local\Temp\ccVld2hN.s:57     .text.vApplicationGetIdleTaskMemory:00000000 $t
-C:\Users\28212\AppData\Local\Temp\ccVld2hN.s:63     .text.vApplicationGetIdleTaskMemory:00000000 vApplicationGetIdleTaskMemory
-C:\Users\28212\AppData\Local\Temp\ccVld2hN.s:88     .text.vApplicationGetIdleTaskMemory:00000010 $d
-C:\Users\28212\AppData\Local\Temp\ccVld2hN.s:168    .bss.xIdleStack:00000000 xIdleStack
-C:\Users\28212\AppData\Local\Temp\ccVld2hN.s:94     .text.MX_FREERTOS_Init:00000000 $t
-C:\Users\28212\AppData\Local\Temp\ccVld2hN.s:100    .text.MX_FREERTOS_Init:00000000 MX_FREERTOS_Init
-C:\Users\28212\AppData\Local\Temp\ccVld2hN.s:139    .text.MX_FREERTOS_Init:00000028 $d
-C:\Users\28212\AppData\Local\Temp\ccVld2hN.s:162    .bss._INIT_TASK_Handle:00000000 _INIT_TASK_Handle
-C:\Users\28212\AppData\Local\Temp\ccVld2hN.s:146    .rodata:00000000 $d
-C:\Users\28212\AppData\Local\Temp\ccVld2hN.s:158    .bss._INIT_TASK_Handle:00000000 $d
-C:\Users\28212\AppData\Local\Temp\ccVld2hN.s:165    .bss.xIdleStack:00000000 $d
-C:\Users\28212\AppData\Local\Temp\ccVld2hN.s:171    .bss.xIdleTaskTCBBuffer:00000000 $d
-C:\Users\28212\AppData\Local\Temp\ccVld2hN.s:175    .bss.xIdleTaskTCBBuffer:00000000 xIdleTaskTCBBuffer
+C:\Users\28212\AppData\Local\Temp\ccBtliyu.s:16     .rodata.str1.4:00000000 $d
+C:\Users\28212\AppData\Local\Temp\ccBtliyu.s:23     .text.StartDefaultTask:00000000 $t
+C:\Users\28212\AppData\Local\Temp\ccBtliyu.s:29     .text.StartDefaultTask:00000000 StartDefaultTask
+C:\Users\28212\AppData\Local\Temp\ccBtliyu.s:57     .text.vApplicationGetIdleTaskMemory:00000000 $t
+C:\Users\28212\AppData\Local\Temp\ccBtliyu.s:63     .text.vApplicationGetIdleTaskMemory:00000000 vApplicationGetIdleTaskMemory
+C:\Users\28212\AppData\Local\Temp\ccBtliyu.s:88     .text.vApplicationGetIdleTaskMemory:00000010 $d
+C:\Users\28212\AppData\Local\Temp\ccBtliyu.s:168    .bss.xIdleStack:00000000 xIdleStack
+C:\Users\28212\AppData\Local\Temp\ccBtliyu.s:94     .text.MX_FREERTOS_Init:00000000 $t
+C:\Users\28212\AppData\Local\Temp\ccBtliyu.s:100    .text.MX_FREERTOS_Init:00000000 MX_FREERTOS_Init
+C:\Users\28212\AppData\Local\Temp\ccBtliyu.s:139    .text.MX_FREERTOS_Init:00000028 $d
+C:\Users\28212\AppData\Local\Temp\ccBtliyu.s:162    .bss._INIT_TASK_Handle:00000000 _INIT_TASK_Handle
+C:\Users\28212\AppData\Local\Temp\ccBtliyu.s:146    .rodata:00000000 $d
+C:\Users\28212\AppData\Local\Temp\ccBtliyu.s:158    .bss._INIT_TASK_Handle:00000000 $d
+C:\Users\28212\AppData\Local\Temp\ccBtliyu.s:165    .bss.xIdleStack:00000000 $d
+C:\Users\28212\AppData\Local\Temp\ccBtliyu.s:171    .bss.xIdleTaskTCBBuffer:00000000 $d
+C:\Users\28212\AppData\Local\Temp\ccBtliyu.s:175    .bss.xIdleTaskTCBBuffer:00000000 xIdleTaskTCBBuffer
 
 UNDEFINED SYMBOLS
 osDelay

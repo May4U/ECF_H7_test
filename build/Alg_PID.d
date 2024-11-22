@@ -1,7 +1,5 @@
-build/Alg_PID.o: ACE_ECF_25/Algorithm/PID/Alg_PID.cpp \
- ACE_ECF_25/Algorithm/PID/Alg_PID.hpp \
- ACE_ECF_25/Algorithm/filter_alg/filter.hpp \
- ACE_ECF_25/Algorithm/user_maths/cpp_files/user_maths.hpp
-ACE_ECF_25/Algorithm/PID/Alg_PID.hpp:
-ACE_ECF_25/Algorithm/filter_alg/filter.hpp:
-ACE_ECF_25/Algorithm/user_maths/cpp_files/user_maths.hpp:
+build/Alg_PID.o: Yellow_code/Alg_PID.cpp Yellow_code/Alg_PID.hpp \
+ Yellow_code/filter.hpp Yellow_code/user_maths.hpp
+Yellow_code/Alg_PID.hpp:
+Yellow_code/filter.hpp:
+Yellow_code/user_maths.hpp:

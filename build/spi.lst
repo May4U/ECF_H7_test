@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 1
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccNn6prx.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 1
   29:Core/Src/spi.c **** DMA_HandleTypeDef hdma_spi2_tx;
   30:Core/Src/spi.c **** 
   31:Core/Src/spi.c **** /* SPI2 init function */
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 2
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccNn6prx.s 			page 2
 
 
   32:Core/Src/spi.c **** void MX_SPI2_Init(void)
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 1
   65 0026 8261     		str	r2, [r0, #24]
   49:Core/Src/spi.c ****   hspi2.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_8;
   66              		.loc 1 49 3 is_stmt 1 view .LVU15
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 3
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccNn6prx.s 			page 3
 
 
   67              		.loc 1 49 32 is_stmt 0 view .LVU16
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 1
  108 0046 4365     		str	r3, [r0, #84]
   63:Core/Src/spi.c ****   hspi2.Init.IOSwap = SPI_IO_SWAP_DISABLE;
  109              		.loc 1 63 3 is_stmt 1 view .LVU43
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 4
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccNn6prx.s 			page 4
 
 
  110              		.loc 1 63 21 is_stmt 0 view .LVU44
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 1
  153              		.cfi_offset 4, -8
  154              		.cfi_offset 14, -4
  155 0002 B6B0     		sub	sp, sp, #216
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 5
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccNn6prx.s 			page 5
 
 
  156              	.LCFI2:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 1
  103:Core/Src/spi.c ****     __HAL_RCC_SPI2_CLK_ENABLE();
  104:Core/Src/spi.c **** 
  105:Core/Src/spi.c ****     __HAL_RCC_GPIOB_CLK_ENABLE();
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 6
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccNn6prx.s 			page 6
 
 
  106:Core/Src/spi.c ****     /**SPI2 GPIO Configuration
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 1
  160:Core/Src/spi.c ****   /* USER CODE END SPI2_MspInit 1 */
  161:Core/Src/spi.c ****   }
  162:Core/Src/spi.c **** }
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 7
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccNn6prx.s 			page 7
 
 
  183              		.loc 1 162 1 view .LVU61
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 1
  222              		.loc 1 94 5 is_stmt 1 view .LVU76
   95:Core/Src/spi.c ****     PeriphClkInitStruct.Spi123ClockSelection = RCC_SPI123CLKSOURCE_PLL2;
  223              		.loc 1 95 5 view .LVU77
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 8
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccNn6prx.s 			page 8
 
 
   96:Core/Src/spi.c ****     if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInitStruct) != HAL_OK)
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 1
  263 0084 0193     		str	r3, [sp, #4]
  105:Core/Src/spi.c ****     /**SPI2 GPIO Configuration
  264              		.loc 1 105 5 view .LVU93
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 9
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccNn6prx.s 			page 9
 
 
  265 0086 019B     		ldr	r3, [sp, #4]
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 1
  302              		.loc 1 122 5 is_stmt 1 view .LVU110
  122:Core/Src/spi.c ****     hdma_spi2_rx.Init.PeriphInc = DMA_PINC_DISABLE;
  303              		.loc 1 122 33 is_stmt 0 view .LVU111
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 10
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccNn6prx.s 			page 10
 
 
  304 00b0 0023     		movs	r3, #0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 1
  339 00d4 1A4B     		ldr	r3, .L17+12
  340 00d6 E367     		str	r3, [r4, #124]
  135:Core/Src/spi.c **** 
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 11
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccNn6prx.s 			page 11
 
 
  341              		.loc 1 135 5 view .LVU131
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 1
  376              		.loc 1 146 32 is_stmt 0 view .LVU150
  377 00fc 4FF48032 		mov	r2, #65536
  378 0100 0262     		str	r2, [r0, #32]
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 12
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccNn6prx.s 			page 12
 
 
  147:Core/Src/spi.c ****     if (HAL_DMA_Init(&hdma_spi2_tx) != HAL_OK)
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 1
  419              		.loc 1 150 7 view .LVU165
  420 012e FFF7FEFF 		bl	Error_Handler
  421              	.LVL14:
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 13
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccNn6prx.s 			page 13
 
 
  422 0132 EAE7     		b	.L11
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 1
  466              		.loc 1 173 5 is_stmt 1 view .LVU171
  467 000e 0C4A     		ldr	r2, .L26+4
  468 0010 D2F8E830 		ldr	r3, [r2, #232]
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 14
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccNn6prx.s 			page 14
 
 
  469 0014 23F48043 		bic	r3, r3, #16384
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 1
  505              		.global	hspi2
  506              		.section	.bss.hdma_spi2_rx,"aw",%nobits
  507              		.align	2
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 15
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccNn6prx.s 			page 15
 
 
  508              		.set	.LANCHOR1,. + 0
@@ -880,26 +880,26 @@ ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 1
  538              		.file 11 "Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h"
  539              		.file 12 "Core/Inc/main.h"
  540              		.file 13 "<built-in>"
-ARM GAS  C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s 			page 16
+ARM GAS  C:\Users\28212\AppData\Local\Temp\ccNn6prx.s 			page 16
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 spi.c
-C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s:19     .text.MX_SPI2_Init:00000000 $t
-C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s:25     .text.MX_SPI2_Init:00000000 MX_SPI2_Init
-C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s:130    .text.MX_SPI2_Init:00000058 $d
-C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s:136    .text.HAL_SPI_MspInit:00000000 $t
-C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s:142    .text.HAL_SPI_MspInit:00000000 HAL_SPI_MspInit
-C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s:426    .text.HAL_SPI_MspInit:00000134 $d
-C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s:437    .text.HAL_SPI_MspDeInit:00000000 $t
-C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s:443    .text.HAL_SPI_MspDeInit:00000000 HAL_SPI_MspDeInit
-C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s:497    .text.HAL_SPI_MspDeInit:0000003c $d
-C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s:518    .bss.hdma_spi2_tx:00000000 hdma_spi2_tx
-C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s:511    .bss.hdma_spi2_rx:00000000 hdma_spi2_rx
-C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s:525    .bss.hspi2:00000000 hspi2
-C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s:507    .bss.hdma_spi2_rx:00000000 $d
-C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s:514    .bss.hdma_spi2_tx:00000000 $d
-C:\Users\28212\AppData\Local\Temp\ccQMm1Bt.s:521    .bss.hspi2:00000000 $d
+C:\Users\28212\AppData\Local\Temp\ccNn6prx.s:19     .text.MX_SPI2_Init:00000000 $t
+C:\Users\28212\AppData\Local\Temp\ccNn6prx.s:25     .text.MX_SPI2_Init:00000000 MX_SPI2_Init
+C:\Users\28212\AppData\Local\Temp\ccNn6prx.s:130    .text.MX_SPI2_Init:00000058 $d
+C:\Users\28212\AppData\Local\Temp\ccNn6prx.s:136    .text.HAL_SPI_MspInit:00000000 $t
+C:\Users\28212\AppData\Local\Temp\ccNn6prx.s:142    .text.HAL_SPI_MspInit:00000000 HAL_SPI_MspInit
+C:\Users\28212\AppData\Local\Temp\ccNn6prx.s:426    .text.HAL_SPI_MspInit:00000134 $d
+C:\Users\28212\AppData\Local\Temp\ccNn6prx.s:437    .text.HAL_SPI_MspDeInit:00000000 $t
+C:\Users\28212\AppData\Local\Temp\ccNn6prx.s:443    .text.HAL_SPI_MspDeInit:00000000 HAL_SPI_MspDeInit
+C:\Users\28212\AppData\Local\Temp\ccNn6prx.s:497    .text.HAL_SPI_MspDeInit:0000003c $d
+C:\Users\28212\AppData\Local\Temp\ccNn6prx.s:518    .bss.hdma_spi2_tx:00000000 hdma_spi2_tx
+C:\Users\28212\AppData\Local\Temp\ccNn6prx.s:511    .bss.hdma_spi2_rx:00000000 hdma_spi2_rx
+C:\Users\28212\AppData\Local\Temp\ccNn6prx.s:525    .bss.hspi2:00000000 hspi2
+C:\Users\28212\AppData\Local\Temp\ccNn6prx.s:507    .bss.hdma_spi2_rx:00000000 $d
+C:\Users\28212\AppData\Local\Temp\ccNn6prx.s:514    .bss.hdma_spi2_tx:00000000 $d
+C:\Users\28212\AppData\Local\Temp\ccNn6prx.s:521    .bss.hspi2:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_SPI_Init
